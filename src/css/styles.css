@@ -7,14 +7,28 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #c6c8b8;
   color: #212121;
   line-height: 1.5;
 }
 
 #search-box {
+  display: block;
+  margin: 100px auto;
+  width: 300px;
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  text-align: center;
+  outline: none;
+  border: 3px solid rgb(57, 145, 47);
+  border-radius: 20px;
+}
+.country-list {
+  list-style: none;
+}
+
+ul.country-info__list {
+  list-style: none;
 }
